@@ -1,0 +1,39 @@
+
+TASK 5: WRITE-UP & MODEL SELECTION
+
+The Adult income dataset was evaluated using two supervised
+learning pipelines: Logistic Regression and Decision Tree.
+Both models used the same preprocessing approach consisting
+of median imputation and standard scaling for numerical
+features, and most-frequent imputation followed by one-hot
+encoding for categorical features.
+
+Logistic Regression Accuracy: 0.8524
+Logistic Regression Precision: 0.7411
+Logistic Regression Recall: 0.5890
+Logistic Regression F1: 0.6563
+Logistic Regression ROC AUC: 0.9042
+Logistic Regression PR AUC: 0.7633
+
+Decision Tree Accuracy: 0.8141
+Decision Tree Precision: 0.6098
+Decision Tree Recall: 0.6198
+Decision Tree F1: 0.6148
+Decision Tree ROC AUC: 0.7475
+Decision Tree PR AUC: 0.4690
+
+Selected model for further development:
+Logistic Regression
+
+Decision Tree Training Accuracy: 0.9999
+Decision Tree Test Accuracy: 0.8141
+Decision Tree Train-Test Gap: 0.1858
+
+PREPROCESSING CHANGES PLANNED FOR TOMORROW:
+
+1. Test a constant 'Missing' category for categorical missing values.
+2. Test different Logistic Regression regularization strengths.
+3. Tune Decision Tree max_depth.
+4. Tune min_samples_split and min_samples_leaf.
+5. Investigate class weighting.
+6. Test probability threshold tuning.

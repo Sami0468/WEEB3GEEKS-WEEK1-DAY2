@@ -1,0 +1,4 @@
+Node,Feature,Threshold,Impurity,Samples
+0,categorical__marital-status_Married-civ-spouse,0.5,0.3640398220152752,39073
+1,numeric__capital-gain,0.8180163204669952,0.11908610444679768,21231
+2,numeric__education-num,0.9405261874198914,0.09150357913716811,20869

@@ -1,0 +1,11 @@
+Feature,Coefficient
+numeric__capital-gain,2.2626686695626295
+categorical__marital-status_Married-civ-spouse,1.556920249981106
+categorical__marital-status_Married-AF-spouse,1.260689461518113
+categorical__native-country_Ireland,0.9230632817564268
+categorical__native-country_France,0.9214652821328656
+categorical__native-country_Cambodia,0.8392934850433105
+categorical__occupation_Exec-managerial,0.7864579735029665
+categorical__native-country_England,0.7771027494511636
+numeric__education-num,0.7600928958253255
+categorical__relationship_Wife,0.7323037271972763
